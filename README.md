@@ -1,4 +1,4 @@
-# _secretPlotters_
+# _Stephanie Spears Portfolio_
 
 #### _Portforlio Website for Stephanie Spears, January 31st, 2017_
 
