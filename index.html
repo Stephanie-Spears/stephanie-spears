@@ -30,8 +30,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li>
-              <a href="https://github.com/Stephanie-Spears/"><i class="fa fa-github-alt" aria-hidden="true"></i>Stephanie's GitHub</a>
-              <a href="www.linkedin.com/in/stephanie-spears"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Stephanie's LinkedIn</a>
+              <a href="https://github.com/Stephanie-Spears/"><i class="fa fa-github-alt" aria-hidden="true"></i>GitHub</a>
+              <a href="www.linkedin.com/in/stephanie-spears"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a>
             </li>
           </ul>
         </div>
@@ -50,7 +50,7 @@
           <div class="hover ehover14">
             <img class="img-responsive" src="images/cac.jpg" alt="">
             <div class="overlay">
-              <h2>PLOT NAMEs</h2>
+              <h2>Library Organizer</h2>
               <button class="info nullbutton" data-toggle="modal" data-target="#modal1">Show Details
               </button>
             </div>
@@ -167,16 +167,12 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <div class="hover ehover10">
+          <div class="hover ehover14">
             <img class="img-responsive" src="images/p14.jpg" alt="">
             <div class="overlay">
-              <button class="info" data-toggle="modal" data-target="#modal11">Show Details
+              <h2>PLOT NAMEs</h2>
+              <button class="info nullbutton" data-toggle="modal" data-target="#modal10">Show Details
               </button>
-              <p class="icon-links">
-                <a href="#"><span class="fa fa-twitter"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </p>
             </div>
           </div>
         </div>
@@ -201,9 +197,6 @@
       </div>
     </footer>
   </div>
-
-
-
   <!-- /.container -->
 	<!-- modals; the pop up boxes with Details for the plots -->
   <div id="modal1" class="modal fade">
@@ -211,16 +204,116 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h2 class="modal-title">Plot 1</h2>
+          <h2 class="modal-title">Library Organizer</h2>
         </div>
         <div class="modal-body">
-          <h3>PLOT DETAILS</h3>
-          <p> Note: Append form input details here</p>
-          <pre>
-          </pre>
-          <h3>COMMENTS</h3>
-          <pre>
-          </pre>
+          <h3><a href="https://github.com/Stephanie-Spears/music-library"><i class="fa fa-github-alt" aria-hidden="true"></i>GitHub Repository</a></h3>
+<pre>
+<h4>Details</h4>
+Language: C++
+Specs:<ul><li>Read Input from text file</li><li>Prompt the user for a menu selection</li><li>Display an organized list from the input file</li><li>Validate, then add a new list item based on user-input, update index</li><li>Validate, then remove a list item based on user-input, update index</li><li>Validate, then search the list based on user-input</li><li>Save all entries/removals back to the text file and exit the program</li></ul>
+<p>An application for organizing libraries of various
+types (ie. music, book, photos, contacts), demonstrating
+linked lists in C++. Upon running the application,
+the program reads input from a text file, then prompts
+the user with a menu of operations they can perform on
+the library.</p>
+</pre>
+          <h3>Example Input/Output:</h3>
+          <pre><h4>Music Library</h4>
+1) Display all songs
+2) Add new song
+3) Remove song
+4) Search song by artist
+5) Search song by album
+6) Save all and Quit
+
+Enter Menu Option: <b>1</b>
+
+<em>Index: 0
+Title: A Boy Named Sue
+Artist: Johnny Cash
+Duration: 3:22
+Album: Live at Folsom Prison
+
+Index: 1
+Title: Blackbird
+Artist: The Beatles
+Duration: 4:26
+Album: The White Album
+
+Index: 2
+Title: The Sound of Silence
+Artist: Simon and Garfunkel
+Duration: 3:05
+Album: Wednesday Morning
+
+Index: 3
+Title: Ring of Fire
+Artist: Johnny Cash
+Duration: 3:15
+Album: The Best of Johnny Cash</em>
+
+Enter Menu Option: <b>4</b>
+Enter the Artist name you'd like to search for: <b>Johnny Cash</b>
+
+There are 2 items for the artist 'Johnny Cash'
+
+<em>Index: 3
+Title: Ring of Fire
+Artist: Johnny Cash
+Duration: 3:15
+Album: The Best of Johnny Cash
+
+Index: 0
+Title: A Boy Named Sue
+Artist: Johnny Cash
+Duration: 3:22
+Album: Live at Folsom Prison</em>
+
+Enter Menu Option: <b>3</b>
+Enter the song index you'd like to remove: <b>6</b>
+Index not found.
+
+Enter Menu Option: <b>3</b>
+Enter the song index you'd like to remove: <b>0</b>
+Index '0' Removed.
+
+Enter Menu Option: <b>2</b>
+Add Song Title: test-Title
+Add Artist Name: test-Artist
+Add Song Duration: 10:00
+Add Song Album: test-Album
+Add Song 'test-Title;test-Artist;10:00;test-Album' ? (Y/N): <b>y</b>
+
+Enter Menu Option: <b>1</b>
+
+<em>Index: 0
+Title: Blackbird
+Artist: The Beatles
+Duration: 4:26
+Album: The White Album
+
+Index: 1
+Title: The Sound of Silence
+Artist: Simon and Garfunkel
+Duration: 3:05
+Album: Wednesday Morning
+
+Index: 2
+Title: Ring of Fire
+Artist: Johnny Cash
+Duration: 3:15
+Album: The Best of Johnny Cash
+
+Index: 3
+Title: test-Title
+Artist: test-Artist
+Duration: 10:00
+Album: test-Album</em>
+
+Enter Menu Option: <b>6</b>
+</pre>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
