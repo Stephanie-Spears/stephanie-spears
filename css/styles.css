@@ -1,1 +1,37 @@
+/* =============================================================================
+   My CSS
+   ========================================================================== */
 
+/* ---- imports ---- */
+/*@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css);*/
+
+
+/* ---- base ---- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 2px solid red;*/
+}
+html,body{
+  width: 100%;
+}
+body{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  color: #f8f8f8;
+}
+
+
+/* ---- My Classes ---- */
+
+
+/* ---- Nav ----*/
+#myBrand{
+}
+
+
+/* ---- Main ----*/
