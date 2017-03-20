@@ -30,6 +30,7 @@ body{
 
 
 
+
 /* ---- My Classes ---- */
 .navbar-nav{
   text-align: center;
@@ -39,9 +40,12 @@ body{
 .navbar-nav li{
   display: inline-block;
 }
+.navbar-brand img{
+  width: 60px;
+  display: inline-block;
+}
 
 /* ---- Nav ----*/
-#myBrand{
-}
+
 
 /* ---- Main ----*/
